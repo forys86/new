@@ -8,10 +8,11 @@ import org.openqa.selenium.support.ui.Select;
 
 public class LaunchBrowser {
     public static void main(String[] args) {
-        System.setProperty("webdriver.chrome.driver","D:\\chromedriver.exe");
-        WebDriver driver = new ChromeDriver();
-
-        driver.get("https://www.opencart.com/index.php?route=marketplace/extension");
-        WebElement category=driver.findElement(By.xpath("//section[@id='extension-category']"));
+//        System.setProperty("webdriver.chrome.driver","D:\\chromedriver.exe");
+//        WebDriver driver = new ChromeDriver();
+//
+//        driver.get("https://www.opencart.com/index.php?route=marketplace/extension");
+//        WebElement category=driver.findElement(By.xpath("//section[@id='extension-category']"));
+        System.out.println("Hello world");
     }
 }
